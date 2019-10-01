@@ -100,34 +100,34 @@
 
 <h2 id="bug">Bug</h2>
 <ul>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2380]">ARTEMIS-2380</a>] - Fix delivering message in the case of consume close</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2471]">ARTEMIS-2471</a>] - JdbcNodeManager doesn’t use jdbc-user and jdbc-password tags</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2472]">ARTEMIS-2472</a>] - Persistent and delivering size not right in replacement of lvq message</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2473]">ARTEMIS-2473</a>] - RemoteQueueBindingImpl should check for empty filters</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2478]">ARTEMIS-2478</a>] - Expired message not removed in non destructive queue</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2479]">ARTEMIS-2479</a>] - ActiveMQConnectionFactory may not be able to connect with initialConnectAttempt=-1</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2480]">ARTEMIS-2480</a>] - Reloading configuration can kill broker</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2483]">ARTEMIS-2483</a>] - BlockSize is not used on sync calculation on CLI create</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2485]">ARTEMIS-2485</a>] - Deleting SNF Queue should also delete associated remote bindings</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2487]">ARTEMIS-2487</a>] - artemis-server-osgi references not-existing jctools:2.2.0</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2489]">ARTEMIS-2489</a>] - Ring queue fails with concurrent producers</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2493]">ARTEMIS-2493</a>] - OpenWire session close doesn’t cleanup consumer refs</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2496]">ARTEMIS-2496</a>] - Use of Netty FileRegion on ReplicationCatch is breaking wildfly integration with artemis</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2501]">ARTEMIS-2501</a>] - Incorrect ActiveMQRALogger configuration for invalidNumberOfMaxSession and unableToRetrieveDestinationName</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2380">ARTEMIS-2380</a>] - Fix delivering message in the case of consume close</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2471">ARTEMIS-2471</a>] - JdbcNodeManager doesn’t use jdbc-user and jdbc-password tags</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2472">ARTEMIS-2472</a>] - Persistent and delivering size not right in replacement of lvq message</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2473">ARTEMIS-2473</a>] - RemoteQueueBindingImpl should check for empty filters</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2478">ARTEMIS-2478</a>] - Expired message not removed in non destructive queue</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2479">ARTEMIS-2479</a>] - ActiveMQConnectionFactory may not be able to connect with initialConnectAttempt=-1</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2480">ARTEMIS-2480</a>] - Reloading configuration can kill broker</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2483">ARTEMIS-2483</a>] - BlockSize is not used on sync calculation on CLI create</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2485">ARTEMIS-2485</a>] - Deleting SNF Queue should also delete associated remote bindings</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2487">ARTEMIS-2487</a>] - artemis-server-osgi references not-existing jctools:2.2.0</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2489">ARTEMIS-2489</a>] - Ring queue fails with concurrent producers</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2493">ARTEMIS-2493</a>] - OpenWire session close doesn’t cleanup consumer refs</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2496">ARTEMIS-2496</a>] - Use of Netty FileRegion on ReplicationCatch is breaking wildfly integration with artemis</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2501">ARTEMIS-2501</a>] - Incorrect ActiveMQRALogger configuration for invalidNumberOfMaxSession and unableToRetrieveDestinationName</li>
 </ul>
 
 <h2 id="improvement">Improvement</h2>
 <ul>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-1811]">ARTEMIS-1811</a>] - NIOSequentialFile should use RandomAccessFile with heap ByteBuffers</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2424]">ARTEMIS-2424</a>] - Add option to override InetAddress.isReachable() with purePing()</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2462]">ARTEMIS-2462</a>] - Allow store and forward queue to be deleted after scaledown</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2465]">ARTEMIS-2465</a>] - [JDBC-STORE] Adding index on txId</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2467]">ARTEMIS-2467</a>] - Define static cluster through ./artemis create –static <node-list></node-list></li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2468]">ARTEMIS-2468</a>] - console.war doesn’t need checker-compat-qual lib</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2474]">ARTEMIS-2474</a>] - Backup Connector ignores the retryInterval on the connection factories</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2475]">ARTEMIS-2475</a>] - Log details when initializing metrics plugin</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2477]">ARTEMIS-2477</a>] - create quieter check dependencies warning</li>
-  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2488]">ARTEMIS-2488</a>] - Potential NPE parsing source address in AMQP</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-1811">ARTEMIS-1811</a>] - NIOSequentialFile should use RandomAccessFile with heap ByteBuffers</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2424">ARTEMIS-2424</a>] - Add option to override InetAddress.isReachable() with purePing()</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2462">ARTEMIS-2462</a>] - Allow store and forward queue to be deleted after scaledown</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2465">ARTEMIS-2465</a>] - [JDBC-STORE] Adding index on txId</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2467">ARTEMIS-2467</a>] - Define static cluster through ./artemis create –static <node-list></node-list></li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2468">ARTEMIS-2468</a>] - console.war doesn’t need checker-compat-qual lib</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2474">ARTEMIS-2474</a>] - Backup Connector ignores the retryInterval on the connection factories</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2475">ARTEMIS-2475</a>] - Log details when initializing metrics plugin</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2477">ARTEMIS-2477</a>] - create quieter check dependencies warning</li>
+  <li>[<a href="https://issues.apache.org/jira/browse/ARTEMIS-2488">ARTEMIS-2488</a>] - Potential NPE parsing source address in AMQP</li>
 </ul>
 
 <p>** Task
